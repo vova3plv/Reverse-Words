@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9351D8112B2A2D7A009338DA /* ReverseWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351D8102B2A2D7A009338DA /* ReverseWordsView.swift */; };
+		9376159A2B2B7413008CCD13 /* ReverseWordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937615992B2B7413008CCD13 /* ReverseWordsModel.swift */; };
+		93D087F42B3EE946002F3219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DCA6862B0D3E3F00D42492 /* Main.storyboard */; };
+		93D087F52B3EE947002F3219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DCA6862B0D3E3F00D42492 /* Main.storyboard */; };
+		93DCA6812B0D3E3F00D42492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA6802B0D3E3F00D42492 /* AppDelegate.swift */; };
+		93DCA6832B0D3E3F00D42492 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA6822B0D3E3F00D42492 /* SceneDelegate.swift */; };
+		93DCA6852B0D3E3F00D42492 /* ReverseWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA6842B0D3E3F00D42492 /* ReverseWordsViewController.swift */; };
+		93DCA6882B0D3E3F00D42492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DCA6862B0D3E3F00D42492 /* Main.storyboard */; };
+		93DCA68A2B0D3E4000D42492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DCA6892B0D3E4000D42492 /* Assets.xcassets */; };
+		93DCA68D2B0D3E4000D42492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DCA68B2B0D3E4000D42492 /* LaunchScreen.storyboard */; };
+		93DCA6982B0D3E4000D42492 /* ReverseWords2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA6972B0D3E4000D42492 /* ReverseWords2Tests.swift */; };
+		93DCA6A22B0D3E4000D42492 /* ReverseWords2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA6A12B0D3E4000D42492 /* ReverseWords2UITests.swift */; };
+		93DCA6A42B0D3E4000D42492 /* ReverseWords2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA6A32B0D3E4000D42492 /* ReverseWords2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93DCA6942B0D3E4000D42492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DCA6752B0D3E3F00D42492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DCA67C2B0D3E3F00D42492;
+			remoteInfo = ReverseWords2;
+		};
+		93DCA69E2B0D3E4000D42492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DCA6752B0D3E3F00D42492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DCA67C2B0D3E3F00D42492;
+			remoteInfo = ReverseWords2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9351D8102B2A2D7A009338DA /* ReverseWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsView.swift; sourceTree = "<group>"; };
+		937615992B2B7413008CCD13 /* ReverseWordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsModel.swift; sourceTree = "<group>"; };
+		93DCA67D2B0D3E3F00D42492 /* ReverseWords2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseWords2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DCA6802B0D3E3F00D42492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93DCA6822B0D3E3F00D42492 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93DCA6842B0D3E3F00D42492 /* ReverseWordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsViewController.swift; sourceTree = "<group>"; };
+		93DCA6872B0D3E3F00D42492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93DCA6892B0D3E4000D42492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93DCA68C2B0D3E4000D42492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93DCA68E2B0D3E4000D42492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DCA6932B0D3E4000D42492 /* ReverseWords2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseWords2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DCA6972B0D3E4000D42492 /* ReverseWords2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords2Tests.swift; sourceTree = "<group>"; };
+		93DCA69D2B0D3E4000D42492 /* ReverseWords2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseWords2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DCA6A12B0D3E4000D42492 /* ReverseWords2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords2UITests.swift; sourceTree = "<group>"; };
+		93DCA6A32B0D3E4000D42492 /* ReverseWords2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93DCA67A2B0D3E3F00D42492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DCA6902B0D3E4000D42492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DCA69A2B0D3E4000D42492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9351D80D2B2A175A009338DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				937615992B2B7413008CCD13 /* ReverseWordsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9351D80E2B2A1764009338DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				937615982B2B73E7008CCD13 /* Storyboards */,
+				9351D8102B2A2D7A009338DA /* ReverseWordsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9351D80F2B2A1777009338DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93DCA6842B0D3E3F00D42492 /* ReverseWordsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		937615982B2B73E7008CCD13 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				93DCA68B2B0D3E4000D42492 /* LaunchScreen.storyboard */,
+				93DCA6862B0D3E3F00D42492 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		93DCA6742B0D3E3F00D42492 = {
+			isa = PBXGroup;
+			children = (
+				93DCA67F2B0D3E3F00D42492 /* ReverseWords2 */,
+				93DCA6962B0D3E4000D42492 /* ReverseWords2Tests */,
+				93DCA6A02B0D3E4000D42492 /* ReverseWords2UITests */,
+				93DCA67E2B0D3E3F00D42492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93DCA67E2B0D3E3F00D42492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93DCA67D2B0D3E3F00D42492 /* ReverseWords2.app */,
+				93DCA6932B0D3E4000D42492 /* ReverseWords2Tests.xctest */,
+				93DCA69D2B0D3E4000D42492 /* ReverseWords2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93DCA67F2B0D3E3F00D42492 /* ReverseWords2 */ = {
+			isa = PBXGroup;
+			children = (
+				9351D80D2B2A175A009338DA /* Models */,
+				9351D80E2B2A1764009338DA /* Views */,
+				9351D80F2B2A1777009338DA /* Controllers */,
+				93DCA6802B0D3E3F00D42492 /* AppDelegate.swift */,
+				93DCA6822B0D3E3F00D42492 /* SceneDelegate.swift */,
+				93DCA6892B0D3E4000D42492 /* Assets.xcassets */,
+				93DCA68E2B0D3E4000D42492 /* Info.plist */,
+			);
+			path = ReverseWords2;
+			sourceTree = "<group>";
+		};
+		93DCA6962B0D3E4000D42492 /* ReverseWords2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93DCA6972B0D3E4000D42492 /* ReverseWords2Tests.swift */,
+			);
+			path = ReverseWords2Tests;
+			sourceTree = "<group>";
+		};
+		93DCA6A02B0D3E4000D42492 /* ReverseWords2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				93DCA6A12B0D3E4000D42492 /* ReverseWords2UITests.swift */,
+				93DCA6A32B0D3E4000D42492 /* ReverseWords2UITestsLaunchTests.swift */,
+			);
+			path = ReverseWords2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93DCA67C2B0D3E3F00D42492 /* ReverseWords2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DCA6A72B0D3E4000D42492 /* Build configuration list for PBXNativeTarget "ReverseWords2" */;
+			buildPhases = (
+				93DCA6792B0D3E3F00D42492 /* Sources */,
+				93DCA67A2B0D3E3F00D42492 /* Frameworks */,
+				93DCA67B2B0D3E3F00D42492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseWords2;
+			productName = ReverseWords2;
+			productReference = 93DCA67D2B0D3E3F00D42492 /* ReverseWords2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93DCA6922B0D3E4000D42492 /* ReverseWords2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DCA6AA2B0D3E4000D42492 /* Build configuration list for PBXNativeTarget "ReverseWords2Tests" */;
+			buildPhases = (
+				93DCA68F2B0D3E4000D42492 /* Sources */,
+				93DCA6902B0D3E4000D42492 /* Frameworks */,
+				93DCA6912B0D3E4000D42492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DCA6952B0D3E4000D42492 /* PBXTargetDependency */,
+			);
+			name = ReverseWords2Tests;
+			productName = ReverseWords2Tests;
+			productReference = 93DCA6932B0D3E4000D42492 /* ReverseWords2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93DCA69C2B0D3E4000D42492 /* ReverseWords2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DCA6AD2B0D3E4000D42492 /* Build configuration list for PBXNativeTarget "ReverseWords2UITests" */;
+			buildPhases = (
+				93DCA6992B0D3E4000D42492 /* Sources */,
+				93DCA69A2B0D3E4000D42492 /* Frameworks */,
+				93DCA69B2B0D3E4000D42492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DCA69F2B0D3E4000D42492 /* PBXTargetDependency */,
+			);
+			name = ReverseWords2UITests;
+			productName = ReverseWords2UITests;
+			productReference = 93DCA69D2B0D3E4000D42492 /* ReverseWords2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93DCA6752B0D3E3F00D42492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					93DCA67C2B0D3E3F00D42492 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					93DCA6922B0D3E4000D42492 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 93DCA67C2B0D3E3F00D42492;
+					};
+					93DCA69C2B0D3E4000D42492 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 93DCA67C2B0D3E3F00D42492;
+					};
+				};
+			};
+			buildConfigurationList = 93DCA6782B0D3E3F00D42492 /* Build configuration list for PBXProject "ReverseWords2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93DCA6742B0D3E3F00D42492;
+			productRefGroup = 93DCA67E2B0D3E3F00D42492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93DCA67C2B0D3E3F00D42492 /* ReverseWords2 */,
+				93DCA6922B0D3E4000D42492 /* ReverseWords2Tests */,
+				93DCA69C2B0D3E4000D42492 /* ReverseWords2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DCA67B2B0D3E3F00D42492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DCA68D2B0D3E4000D42492 /* LaunchScreen.storyboard in Resources */,
+				93DCA68A2B0D3E4000D42492 /* Assets.xcassets in Resources */,
+				93DCA6882B0D3E3F00D42492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DCA6912B0D3E4000D42492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D087F42B3EE946002F3219 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DCA69B2B0D3E4000D42492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D087F52B3EE947002F3219 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93DCA6792B0D3E3F00D42492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9376159A2B2B7413008CCD13 /* ReverseWordsModel.swift in Sources */,
+				93DCA6852B0D3E3F00D42492 /* ReverseWordsViewController.swift in Sources */,
+				93DCA6812B0D3E3F00D42492 /* AppDelegate.swift in Sources */,
+				93DCA6832B0D3E3F00D42492 /* SceneDelegate.swift in Sources */,
+				9351D8112B2A2D7A009338DA /* ReverseWordsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DCA68F2B0D3E4000D42492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DCA6982B0D3E4000D42492 /* ReverseWords2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DCA6992B0D3E4000D42492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DCA6A42B0D3E4000D42492 /* ReverseWords2UITestsLaunchTests.swift in Sources */,
+				93DCA6A22B0D3E4000D42492 /* ReverseWords2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93DCA6952B0D3E4000D42492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DCA67C2B0D3E3F00D42492 /* ReverseWords2 */;
+			targetProxy = 93DCA6942B0D3E4000D42492 /* PBXContainerItemProxy */;
+		};
+		93DCA69F2B0D3E4000D42492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DCA67C2B0D3E3F00D42492 /* ReverseWords2 */;
+			targetProxy = 93DCA69E2B0D3E4000D42492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93DCA6862B0D3E3F00D42492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DCA6872B0D3E3F00D42492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93DCA68B2B0D3E4000D42492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DCA68C2B0D3E4000D42492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93DCA6A52B0D3E4000D42492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93DCA6A62B0D3E4000D42492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93DCA6A82B0D3E4000D42492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA38325FG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReverseWords2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = any.ReverseWords2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93DCA6A92B0D3E4000D42492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA38325FG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReverseWords2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = any.ReverseWords2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93DCA6AB2B0D3E4000D42492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA38325FG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = any.ReverseWords2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseWords2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReverseWords2";
+			};
+			name = Debug;
+		};
+		93DCA6AC2B0D3E4000D42492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA38325FG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = any.ReverseWords2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseWords2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReverseWords2";
+			};
+			name = Release;
+		};
+		93DCA6AE2B0D3E4000D42492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA38325FG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = any.ReverseWords2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReverseWords2;
+			};
+			name = Debug;
+		};
+		93DCA6AF2B0D3E4000D42492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA38325FG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = any.ReverseWords2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReverseWords2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93DCA6782B0D3E3F00D42492 /* Build configuration list for PBXProject "ReverseWords2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DCA6A52B0D3E4000D42492 /* Debug */,
+				93DCA6A62B0D3E4000D42492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DCA6A72B0D3E4000D42492 /* Build configuration list for PBXNativeTarget "ReverseWords2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DCA6A82B0D3E4000D42492 /* Debug */,
+				93DCA6A92B0D3E4000D42492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DCA6AA2B0D3E4000D42492 /* Build configuration list for PBXNativeTarget "ReverseWords2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DCA6AB2B0D3E4000D42492 /* Debug */,
+				93DCA6AC2B0D3E4000D42492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DCA6AD2B0D3E4000D42492 /* Build configuration list for PBXNativeTarget "ReverseWords2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DCA6AE2B0D3E4000D42492 /* Debug */,
+				93DCA6AF2B0D3E4000D42492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93DCA6752B0D3E3F00D42492 /* Project object */;
+}
